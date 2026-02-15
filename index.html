@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tarjetas para Delia</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="scene">
+      <section class="garden" aria-hidden="true">
+        <div class="stem s1"><span class="flower"></span></div>
+        <div class="stem s2"><span class="flower"></span></div>
+        <div class="stem s3"><span class="flower"></span></div>
+        <div class="stem s4"><span class="flower"></span></div>
+        <span class="leaf l1"></span>
+        <span class="leaf l2"></span>
+        <span class="leaf l3"></span>
+        <span class="leaf l4"></span>
+        <span class="spark p1"></span>
+        <span class="spark p2"></span>
+        <span class="spark p3"></span>
+        <span class="spark p4"></span>
+        <span class="spark p5"></span>
+      </section>
+
+      <section class="card-wrap" aria-live="polite">
+        <article class="card" id="messageCard">
+          <h1>Para Delia 🌸</h1>
+          <p id="messageText"></p>
+        </article>
+        <div class="controls">
+          <button id="prevBtn" type="button" aria-label="Tarjeta anterior">← Anterior</button>
+          <button id="nextBtn" type="button" aria-label="Siguiente tarjeta">Siguiente →</button>
+          <span id="counter" class="counter"></span>
+        </div>
+        <p class="hint">También puedes deslizar la tarjeta en celular ✨</p>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
